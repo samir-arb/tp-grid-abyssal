@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: "DMSerif";
+    src: url(./assets/font/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+}
+
+body{
+    font-family: "DMSerif", verdana ;
+    background: url(./assets/img/monstre-marin-terrifiant-dans-profondeurs-ocean-.avif) center/cover;  
+     min-height: 100vh;   
+}
+
+div {
+    align-items: center; 
+}
+
+
+.headerbar-container {
+    display: grid;
+    grid-template-columns: 20% 60% 20% ;  
+    justify-content: normal ;
+    justify-items: center;
+}
+
+.headerbar img {
+    width:50% ;
+    margin-top: 10px;
+    border-radius: 100%;
+    background: rgba(7, 2, 28, 0.727);
+    box-shadow: 0 0 20px 7px rgb(8, 244, 240);
+}
+
+ h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #62ff00;
+    text-shadow: 6px 0 3px black;
+    text-align: center;
+    font-family:'Cinzel',serif;
+    font-size: 50px;
+    max-width: 400px;
+}
+
+form {
+    align-items: center;
+}
+
+.btn-connection {
+    height: 20px;
+    width: 20px;
+    background: #0a0a1f;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 7px rgb(181, 235, 240);
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-connection:hover {
+    color: #62ff00;
+}
+
+main{
+    width: 100%;
+    background-color:rgba(255, 235, 205, 0.249) ;
+    box-shadow: 0 0 20px 5px black;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+nav {
+    width: 100%;
+    background-color: #f5deb37f;
+    padding: 10px 0;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+nav a {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #190f33;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-download {
+    background-color:  #0a0a1f;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.btn-download:hover {
+    color: #62ff00;
+    border-color: #00b4d8;
+    transform: scale(1.05);
+}
+
+aside{
+    padding: 50px;
+}
+.asidebar {
+    width: 100px;
+    height: calc(100vh -100px);
+    background-color: #0a0a1f00;
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(249, 253, 253);
+
+}
+
+.asidebar h2 {
+    text-align: none;
+    margin-bottom: 30px;
+    font-family:'Cinzel',serif;
+}
+
+.asidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.asidebar ul li {
+    margin: 20px 0;
+}
+
+.asidebar ul li a {
+    color: #62ff00;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.asidebar ul li a:hover {
+    color: #00ffff;
+}
+
+
+.footer {
+    background-color: #0a0a0a;
+    color: white;
+    font-size: 14px;
+    padding: 10px 0;
+    width: 100%;
+    border-top: 1px solid #222;
+    font-family: 'DMSerif', serif;
+}
+     
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-social img {
+    width: 20px;
+    height: 20px;
+   transition: 0.3s, filter 0.3s;
+}
+
+.footer-social img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.5);
+}
+    
